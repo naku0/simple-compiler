@@ -8,6 +8,8 @@ object Operators:
     "!=" -> TokenType.NEQ,
     "<=" -> TokenType.LTEQ,
     ">=" -> TokenType.GTEQ,
+    "->" -> TokenType.LARROW,
+    "<-" -> TokenType.RARROW,
     "&&" -> TokenType.AND,
     "||" -> TokenType.OR,
     "+" -> TokenType.PLUS,

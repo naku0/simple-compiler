@@ -4,7 +4,7 @@ enum TokenType:
   case NUMBER, ID, STRING, VAR, VAL
 
   case PRINT
-  case DEF
+  case DEF, LARROW, RARROW
 
   case IF, ELSE
   case WHILE
