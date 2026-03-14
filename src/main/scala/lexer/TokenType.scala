@@ -4,10 +4,10 @@ enum TokenType:
   case NUMBER, ID, STRING, VAR, VAL
 
   case PRINT
-  case DEF, LARROW, RARROW
+  case DEF, LARROW, RARROW, RETURN
 
   case IF, ELSE
-  case WHILE
+  case WHILE, CONTINUE, BREAK
 
   case PLUS, MINUS, STAR, SLASH
   case EQ, EQEQ, NEQ, EXCL

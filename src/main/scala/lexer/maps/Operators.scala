@@ -8,8 +8,8 @@ object Operators:
     "!=" -> TokenType.NEQ,
     "<=" -> TokenType.LTEQ,
     ">=" -> TokenType.GTEQ,
-    "->" -> TokenType.LARROW,
-    "<-" -> TokenType.RARROW,
+    "->" -> TokenType.RARROW,
+    "<-" -> TokenType.LARROW,
     "&&" -> TokenType.AND,
     "||" -> TokenType.OR,
     "+" -> TokenType.PLUS,
@@ -24,7 +24,9 @@ object Operators:
     ")" -> TokenType.RPAREN,
     "{" -> TokenType.LBRACE,
     "}" -> TokenType.RBRACE,
-    ";" -> TokenType.SEMICOLON
+    ";" -> TokenType.SEMICOLON,
+    "!!" -> TokenType.BREAK,
+    "~>" -> TokenType.CONTINUE
   )
 
   def isOperator(char: Char): Boolean =
