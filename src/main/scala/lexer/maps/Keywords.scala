@@ -11,6 +11,8 @@ object Keywords {
     "print" -> PRINT,
     "if" -> IF,
     "else" -> ELSE,
-    "while" -> WHILE
-  )
+    "while" -> WHILE,
+    "continue" -> CONTINUE,
+    "break" -> BREAK
+   )
 }

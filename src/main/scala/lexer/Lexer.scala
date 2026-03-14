@@ -14,9 +14,9 @@ case class Lexer(source: String,
 }
 
 object Lexer {
-  def tokenize(input: String): LazyList[Token] = {
+  def tokenize(input: String): List[Token] = {
     val source = Option(input).getOrElse("")
-    tokenize(Lexer(source))
+    tokenize(Lexer(source)).toList
   }
 
   @tailrec
